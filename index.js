@@ -14,29 +14,30 @@ db.put('name', 'LevelUP', function (err) {
 })
 
 var ops = [
-    { type: 'put', key: '1', value:  { number: '3733002', last_name: 'машина1'   }, valueEncoding: 'json' }
-  , { type: 'put', key: '2', value:  { number: '3733019', last_name: 'машина2'     }, valueEncoding: 'json' }
-  , { type: 'put', key: '3', value:  { number: '3733020', last_name: 'машина3'    }, valueEncoding: 'json' }
-  , { type: 'put', key: '4', value:  { number: '3733018', last_name: 'машина4'        }, valueEncoding: 'json' }
-  , { type: 'put', key: '5', value:  { number: '3733019', last_name: 'машина5'    }, valueEncoding: 'json' }
-  , { type: 'put', key: '6', value:  { number: '3733042', last_name: 'машина6'     }, valueEncoding: 'json' }
-  , { type: 'put', key: '7', value:  { number: '3733043', last_name: 'машина7'      }, valueEncoding: 'json' }
-  , { type: 'put', key: '8', value:  { number: '3733129', last_name: 'машина8'    }, valueEncoding: 'json' }
-  , { type: 'put', key: '9', value:  { number: '3733130', last_name: 'машина9'      }, valueEncoding: 'json' }
-  , { type: 'put', key: '10', value: { number: '3733132', last_name: 'машина10'       }, valueEncoding: 'json' }
-  , { type: 'put', key: '11', value: { number: '3733139', last_name: 'машина11'    }, valueEncoding: 'json' }
-  , { type: 'put', key: '12', value: { number: '3733133', last_name: 'машина12'    }, valueEncoding: 'json' }
-  , { type: 'put', key: '13', value: { number: '3733176', last_name: 'машина13'   }, valueEncoding: 'json' }
-  , { type: 'put', key: '14', value: { number: '3733199', last_name: 'машина14'      }, valueEncoding: 'json' }
-  , { type: 'put', key: '15', value: { number: '3733200', last_name: 'машина15'      }, valueEncoding: 'json' }
-  , { type: 'put', key: '16', value: { number: '3733201', last_name: 'машина16'     }, valueEncoding: 'json' }
-  , { type: 'put', key: '17', value: { number: '3733248', last_name: 'машина17'      }, valueEncoding: 'json' }
-  , { type: 'put', key: '18', value: { number: '3733249', last_name: 'машина18'     }, valueEncoding: 'json' }
-  , { type: 'put', key: '19', value: { number: '3733250', last_name: 'машина19'      }, valueEncoding: 'json' }
-  , { type: 'put', key: '20', value: { number: '3733274', last_name: 'машина20' }, valueEncoding: 'json' }
-  , { type: 'put', key: '21', value: { number: '3733275', last_name: 'машина21'      }, valueEncoding: 'json' }
-  , { type: 'put', key: '22', value: { number: '3733276', last_name: 'машина22'     }, valueEncoding: 'json' }
+    { type: 'put', key: '1', value:  { itemprice: '9900', items: ‘Планшетный компьютер'   }, valueEncoding: 'json' }
+  , { type: 'put', key: '2', value:  { itemprice: ‘200', items: ‘Чехол для телефона'     }, valueEncoding: 'json' }
+  , { type: 'put', key: '3', value:  { item-price: '24990', items: ‘Ноутбук'    }, valueEncoding: 'json' }
+  , { type: 'put', key: '4', value:  { itemprice: '10000', items: 'Смартфон'        }, valueEncoding: 'json' }
+  , { type: 'put', key: '5', value:  { itemprice: '49900', items: ‘Моноблок'    }, valueEncoding: 'json' }
+  , { type: 'put', key: '6', value:  { itemprice: ‘1900', items: ‘Кнопочный телефон'     }, valueEncoding: 'json' }
+  , { type: 'put', key: '7', value:  { itemprice: '24000', items: 'кофемашина'      }, valueEncoding: 'json' }
+  , { type: 'put', key: '8', value:  { itemprice: ‘3000', items: ‘Утюг'    }, valueEncoding: 'json' }
+  , { type: 'put', key: '9', value:  { itemprice: '6900', items: ‘Микроволновая печь'      }, valueEncoding: 'json' }
+  , { type: 'put', key: '10', value: { itemprice: '590', items: 'Монопод'       }, valueEncoding: 'json' }
+  , { type: 'put', key: '11', value: { itemprice: '990', items: 'Флешкарта'    }, valueEncoding: 'json' }
+  , { type: 'put', key: '12', value: { itemprice: '6000', items: 'Фотоаппарат'    }, valueEncoding: 'json' }
+  , { type: 'put', key: '13', value: { itemprice: '23000', items: 'Видеокамера'   }, valueEncoding: 'json' }
+  , { type: 'put', key: '14', value: { itemprice: '18000', items: 'Аудиоплеер'      }, valueEncoding: 'json' }
+  , { type: 'put', key: '15', value: { itemprice: '20000', items: ‘Стиральная машина'      }, valueEncoding: 'json' }
+  , { type: 'put', key: '16', value: { itemprice: ‘10000', items: 'Сабвуфер'     }, valueEncoding: 'json' }
+  , { type: 'put', key: '17', value: { itemprice: '400', items: 'Наушники'      }, valueEncoding: 'json' }
+  , { type: 'put', key: '18', value: { itemprice: '50', items: 'Ножницы'     }, valueEncoding: 'json' }
+  , { type: 'put', key: '19', value: { itemprice: '500', items: ‘Капсулы кофе'      }, valueEncoding: 'json' }
+  , { type: 'put', key: '20', value: { itemprice: '5000', items: 'Блендер' }, valueEncoding: 'json' }
+  , { type: 'put', key: '21', value: { itemprice: '2000', items: 'Миксер'      }, valueEncoding: 'json' }
+  , { type: 'put', key: '22', value: { itemprice: '13000', items: ‘Посудомоечная машина'     }, valueEncoding: 'json' }
 ]
+
 
 db.batch(ops, function (err) {
   if (err) return console.log('Ooops!', err)
